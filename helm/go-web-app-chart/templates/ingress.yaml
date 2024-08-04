@@ -7,7 +7,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /courses
+      - path: /
         backend:
           service:
             name: go-web-app
